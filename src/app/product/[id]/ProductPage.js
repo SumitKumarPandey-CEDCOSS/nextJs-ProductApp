@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import { useState } from 'react';
 import styles from './ProductPage.module.css';
 import { LoadingSpinner } from './common';
-import Header from './header';
+import Header from './Header';
 import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const ReactStars = dynamic(() => import('react-rating-stars-component'), { ssr: false });
